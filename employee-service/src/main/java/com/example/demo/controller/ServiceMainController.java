@@ -19,7 +19,7 @@ import com.example.demo.service.Address;
 import com.example.demo.service.AddressService;
 import com.example.demo.service.AssignmentService;
 import com.example.demo.service.EmployeeService;
-import com.github.andrewoma.dexx.collection.ArrayList;
+
 
 @RestController
 public class ServiceMainController {
@@ -64,7 +64,7 @@ public class ServiceMainController {
 		return assignment;
 	}
    
-	@CrossOrigin(origins = "http://localhost:4200")
+	
 	@GetMapping("/all")
 
 	public List<Employee> getAllEmployees() {
@@ -72,7 +72,7 @@ public class ServiceMainController {
 		return employeeService.getAllEmployees();
 
 	}
-	@CrossOrigin(origins = "http://localhost:4200")
+	
 	@PostMapping("/create")
 
 	public Employee create(@RequestBody Employee employee) {

@@ -2,22 +2,21 @@ package com.example.demo.service;
 
 import java.util.Arrays;
 
-import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.http.HttpEntity;
+/*import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.ResponseEntity;*/
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMethod;
+/*import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 
 import com.netflix.discovery.EurekaClient;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.ribbon.proxy.annotation.Hystrix;
+import com.netflix.ribbon.proxy.annotation.Hystrix;*/
 
 @Service
 public class AddressService {
@@ -78,7 +77,7 @@ public class AddressService {
 
 	}
 
-	private static HttpHeaders getHeaders() {
+/*	private static HttpHeaders getHeaders() {
 		String plainCredentials = "john123:password";
 		String base64Credentials = new String(Base64.encodeBase64(plainCredentials.getBytes()));
 
@@ -86,7 +85,7 @@ public class AddressService {
 		headers.add("Authorization", "Basic " + base64Credentials);
 		headers.setAccept(Arrays.asList(MediaType.TEXT_PLAIN));
 		return headers;
-	}
+	} */
 
 	public String unknown() {
 

@@ -22,12 +22,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
 import com.example.demo.model.Address;
 import com.example.demo.model.Assignment;
 import com.example.demo.model.Employee;
 import com.example.demo.model.UserDetails;
-import com.example.demo.model.UserInfo;
 import com.example.demo.service.EmployeeService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
