@@ -26,5 +26,11 @@ public class EmployeeService {
 		return empList;
 
 	}
+	public Employee getAllEmployeeByEmail(String email) {
+
+		Employee emp =employeeRepository.findByEmail(email);
+		return emp;
+
+	}
 
 }
