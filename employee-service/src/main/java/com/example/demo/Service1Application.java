@@ -45,7 +45,7 @@ public class Service1Application {
 	private EmployeeRepository employeeRepository;
 
 	@Autowired
-	private ProjectRepository projectRepository;
+	private ProjectRepository projectRepository; */
 
 	public static void main(String[] args) {
 		SpringApplication.run(Service1Application.class, args);
