@@ -65,13 +65,13 @@ public class ServiceMainController {
 	}
    
 	
-	@GetMapping("/all")
+/*	@GetMapping("/all")
 
 	public List<Employee> getAllEmployees() {
 
 		return employeeService.getAllEmployees();
 
-	}
+	} */
 	
 	@PostMapping("/create")
 
