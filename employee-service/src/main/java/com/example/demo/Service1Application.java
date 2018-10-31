@@ -39,7 +39,7 @@ import com.example.ribbon.config.RibbonClientConfig;
 public class Service1Application {
 	private static Logger logger = LoggerFactory.getLogger(ServiceMainController.class);
 
-	@Autowired
+/*	@Autowired
 	private EmployeeRepository employeeRepository;
 
 	@Autowired
